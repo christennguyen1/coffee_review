@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222222;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container-fbuild {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1290px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.farm__header {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+.farm__header__poffolio {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.farm__header__logo {
+  position: relative;
+}
+.farm__header__logo h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fb811e;
+  margin-top: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.farm__header__logo h1:hover {
+  color: white;
+}
+.farm__header__logo__icon {
+  position: absolute;
+  top: 5px;
+  right: 83px;
+}
+.farm__header__logo__icon i {
+  color: white;
+  font-size: 22px;
+}
+.farm__header__list {
+  display: flex;
+  justify-content: space-between;
+}
+.farm__header__input {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.farm__header__input img {
+  margin-top: 3px;
+}
+.farm__header__dl {
+  padding-top: 12px;
+  margin-right: 15px;
+}
+.farm__header__dl::before {
+  content: "\f185";
+  font-family: fontAwesome;
+  font-size: 20px;
+  color: white;
+}
+.farm__header__menu {
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.farm__header__menu::before {
+  content: "\f0c9";
+  font-family: fontAwesome;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.farm__header__menu ul {
+  list-style: none;
+  display: none;
+}
+.farm__header__menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+/* start carousel */
+.farm__carousel {
+  position: relative;
+}
+.farm__carousel__back {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.farm__carousel__left {
+  width: 41%;
+  position: absolute;
+  left: 120px;
+  top: 110px;
+  z-index: 1;
+}
+.farm__carousel__left h1 {
+  font-size: 120px;
+  font-weight: bold;
+  color: black;
+  position: relative;
+}
+.farm__carousel__content {
+  position: absolute;
+  top: 90px;
+  left: 60px;
+}
+.farm__carousel__content h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.farm__carousel__content p {
+  font-size: 18px;
+  color: #b7b7b7;
+  margin: 30px 0px;
+}
+.farm__carousel__content button {
+  width: 140px;
+  height: 50px;
+  background-color: #fb811e;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.farm__carousel__content button:hover {
+  background-color: #009f4d;
+}
+.farm__carousel__content button span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.farm__carousel__right {
+  width: 59%;
+  margin-left: auto !important;
+  background: rgb(0 0 0 / 17%);
+  border-radius: 0px 0px 0px 40px;
+  overflow: hidden;
+}
+.farm__carousel__right img {
+  opacity: 0.8;
+  height: 745px;
+  object-fit: cover;
+  position: relative;
+}
+.farm__carousel__right .carousel-inner p {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  color: white;
+  z-index: 10;
+  font-size: 20px;
+}
+.farm__carousel__right .carousel-inner p span {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.farm__carousel__right li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+}
