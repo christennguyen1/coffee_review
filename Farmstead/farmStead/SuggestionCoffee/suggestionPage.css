@@ -126,3 +126,11 @@ body {
   color: white;
   outline: none;
 }
+/* ------------------------------- start banner ------------------------- */
+.coffee_banner .slider{
+  height:500px;
+}
+.coffee_banner .slider img{
+  height:500px;
+  object-fit: cover;
+}
