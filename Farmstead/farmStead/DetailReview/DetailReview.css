@@ -5,7 +5,7 @@
     font-family: 'Volkhov', serif;
   }
   body {
-    background-image: url("../TrangChuCoffee/photo-1447933601403-0c6688de566e.jpg");
+    background-image: url("../TrangChuCoffee_Image/pattern.png");
     background-repeat: repeat;
   }
   .container {
@@ -27,49 +27,49 @@
       margin-right: auto;
     }
   }
-  .farm__header {
+  .coffee__header {
     background-color: transparent;
     width: 100%;
     z-index: 100;
   }
-  .farm__header__poffolio {
+  .coffee__header__poffolio {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
   }
-  .farm__header__logo {
+  .coffee__header__logo {
     position: relative;
     cursor: pointer;
     transition: 1s;
   }
-  .farm__header__logo h1 {
+  .coffee__header__logo h1 {
     font-size: 40px;
     font-weight: 600;
     color: #fb811e;
     margin-top: 10px;
     transition: 0.5s;
   }
-  .farm__header__logo__icon {
+  .coffee__header__logo__icon {
     position: absolute;
     top: 5px;
     right: 125px;
   }
-  .farm__header__logo__icon i {
+  .coffee__header__logo__icon i {
     color: #fb811e;
     font-size: 15px;
     transition: 0.5s;
   }
-  .farm__header__logo:hover h1   {
+  .coffee__header__logo:hover h1   {
     color: white;
   }
-  .farm__header__logo:hover i   {
+  .coffee__header__logo:hover i   {
     color: white;
   }
-  .farm__header__list {
+  .coffee__header__list {
     display: flex;
     justify-content: space-between;
   }
-  .farm__header__input {
+  .coffee__header__input {
     width: 35px;
     height: 35px;
     background-color: white;
@@ -78,82 +78,82 @@
     margin-right: 15px;
     margin-top: 10px;
   }
-  .farm__header__input img {
+  .coffee__header__input img {
     margin-top: 3px;
   }
-  .farm__header__dl {
+  .coffee__header__dl {
     padding-top: 12px;
     margin-right: 15px;
   }
-  .farm__header__dl::before {
+  .coffee__header__dl::before {
     content: "\f185";
     font-family: fontAwesome;
     font-size: 20px;
     color: white;
   }
-  .farm__header__menu {
+  .coffee__header__menu {
     text-align: center;
     margin-right: 10px;
     margin-top: 5px;
   }
-  .farm__header__menu::before {
+  .coffee__header__menu::before {
     content: "\f0c9";
     font-family: fontAwesome;
     font-size: 30px;
     font-weight: 600;
     color: white;
   }
-  .farm__header__menu ul {
+  .coffee__header__menu ul {
     list-style: none;
     display: none;
   }
-  .farm__header__menu li a {
+  .coffee__header__menu li a {
     text-decoration: none;
     color: white;
     font-weight: 500;
   }
-/* --------------------------farm carousel--------------------------- */
-.farm_carousel{
+/* --------------------------coffee carousel--------------------------- */
+.coffee_carousel{
     margin: 50px 100px;
     background-color: white;
     border-radius: 10px;
     padding:50px 50px;
 }
-.farm_carousel_content{
+.coffee_carousel_content{
     display: flex;
     flex-wrap: wrap;
 }
-.farm_carousel_content .farm_carousel_content_item{
+.coffee_carousel_content .coffee_carousel_content_item{
    width: 50%;
    padding-right: 10px;
 }
-.farm_carousel_content .farm_carousel_content_item h1{
+.coffee_carousel_content .coffee_carousel_content_item h1{
     margin-bottom: 10px;
 }
-.farm_carousel_content .farm_carousel_content_img{
+.coffee_carousel_content .coffee_carousel_content_img{
     width: 50%;
  }
- .farm_icon_item{
+ .coffee_icon_item{
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
  }
- .farm_icon{
+ .coffee_icon{
   display: flex;
   flex-wrap: wrap;
  }
  
- .farm_icon i{
+ .coffee_icon i{
   padding-top: 4px;
   padding-right:3px;
  }
-.farm_carousel_content_review{
+.coffee_carousel_content_review{
   margin-bottom: 30px;
 }
-.farm_carousel_content_review p{
+.coffee_carousel_content_review p{
   line-height: 27px;
 }
- .farm_carousel_content_img{
+ .coffee_carousel_content_img{
   height:100%;
   overflow: hidden;
  }
@@ -166,16 +166,16 @@
   object-fit:contain;
  }
 
-/* --------------------------farm footer----------------------------- */
-.farm_footer{
+/* --------------------------coffee footer----------------------------- */
+.coffee_footer{
     background-color: rgb(183, 168, 168);
     padding-top:100px;
   }
-  .farm_footer_bg{
+  .coffee_footer_bg{
     margin: auto;
     width: 100%;
   }
-  .farm_footer_col{
+  .coffee_footer_col{
     display: flex;
     flex-wrap: wrap;
   }
@@ -183,19 +183,19 @@
     border-bottom: #22222220 1px solid;
     padding-bottom: 30px;
   }
-  .farm_footer_item {
+  .coffee_footer_item {
     margin-right: 200px;
   }
-  .farm_footer_item h5 ,.farm_footer_item1 h5{
+  .coffee_footer_item h5 ,.coffee_footer_item1 h5{
    margin-bottom: 20px;
   }
-  .farm_footer_item ul ,.farm_footer_item1 ul{
+  .coffee_footer_item ul ,.coffee_footer_item1 ul{
     list-style-type: none;
   }
-  .farm_footer_item li ,.farm_footer_item1 li{
+  .coffee_footer_item li ,.coffee_footer_item1 li{
     margin-top: 10px;
   }
-  .farm_footer_item a,.farm_footer_item1 a{
+  .coffee_footer_item a,.coffee_footer_item1 a{
     text-decoration: none;
     color: rgb(32, 32, 32);
   }
