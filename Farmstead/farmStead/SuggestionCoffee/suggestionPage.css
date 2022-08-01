@@ -35,6 +35,7 @@ body {
 .coffee__header__poffolio {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 15px;
 }
 .coffee__header__logo {
@@ -111,4 +112,17 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 500;
+}
+.coffee__header_select {
+  display: flex;
+  font-size: 20px;
+}
+.selectCss {
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0px 0px 4px;
+  font-family: "Volkhov", serif;
+  background-color: transparent;
+  color: white;
+  outline: none;
 }
