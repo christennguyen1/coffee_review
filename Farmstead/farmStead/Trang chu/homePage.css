@@ -26,50 +26,50 @@ body {
     margin-right: auto;
   }
 }
-.farm__header {
+.coffee__header {
   background-color: transparent;
   position: absolute;
   width: 100%;
   z-index: 100;
 }
-.farm__header__poffolio {
+.coffee__header__poffolio {
   display: flex;
   justify-content: space-between;
   padding-top: 15px;
 }
-.farm__header__logo {
+.coffee__header__logo {
   position: relative;
   cursor: pointer;
   transition: 1s;
 }
-.farm__header__logo h1 {
+.coffee__header__logo h1 {
   font-size: 40px;
   font-weight: 600;
   color: #fb811e;
   margin-top: 10px;
   transition: 0.5s;
 }
-.farm__header__logo__icon {
+.coffee__header__logo__icon {
   position: absolute;
   top: 5px;
   right: 125px;
 }
-.farm__header__logo__icon i {
+.coffee__header__logo__icon i {
   color: #fb811e;
   font-size: 15px;
   transition: 0.5s;
 }
-.farm__header__logo:hover h1   {
+.coffee__header__logo:hover h1   {
   color: white;
 }
-.farm__header__logo:hover i   {
+.coffee__header__logo:hover i   {
   color: white;
 }
-.farm__header__list {
+.coffee__header__list {
   display: flex;
   justify-content: space-between;
 }
-.farm__header__input {
+.coffee__header__input {
   width: 35px;
   height: 35px;
   background-color: white;
@@ -78,79 +78,79 @@ body {
   margin-right: 15px;
   margin-top: 10px;
 }
-.farm__header__input img {
+.coffee__header__input img {
   margin-top: 3px;
 }
-.farm__header__dl {
+.coffee__header__dl {
   padding-top: 12px;
   margin-right: 15px;
 }
-.farm__header__dl::before {
+.coffee__header__dl::before {
   content: "\f185";
   font-family: fontAwesome;
   font-size: 20px;
   color: white;
 }
-.farm__header__menu {
+.coffee__header__menu {
   text-align: center;
   margin-right: 10px;
   margin-top: 5px;
 }
-.farm__header__menu::before {
+.coffee__header__menu::before {
   content: "\f0c9";
   font-family: fontAwesome;
   font-size: 30px;
   font-weight: 600;
   color: white;
 }
-.farm__header__menu ul {
+.coffee__header__menu ul {
   list-style: none;
   display: none;
 }
-.farm__header__menu li a {
+.coffee__header__menu li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
 }
 /* start carousel */
-.farm__carousel {
+.coffee__carousel {
   position: relative;
 }
-.farm__carousel__back {
+.coffee__carousel__back {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
 }
-.farm__carousel__left {
+.coffee__carousel__left {
   width: 41%;
   position: absolute;
   left: 120px;
   top: 110px;
   z-index: 1;
 }
-.farm__carousel__left h1 {
+.coffee__carousel__left h1 {
   font-size: 120px;
   font-weight: bold;
   color: black;
   position: relative;
 }
-.farm__carousel__content {
+.coffee__carousel__content {
   position: absolute;
   top: 90px;
   left: 60px;
 }
-.farm__carousel__content h2 {
+.coffee__carousel__content h2 {
   color: white;
   font-size: 50px;
   font-weight: bold;
   line-height: 60px;
 }
-.farm__carousel__content p {
+.coffee__carousel__content p {
   font-size: 18px;
   color: #b7b7b7;
   margin: 30px 0px;
 }
-.farm__carousel__content button {
+.coffee__carousel__content button {
   width: 140px;
   height: 50px;
   background-color: #fb811e;
@@ -159,28 +159,28 @@ body {
   margin-top: 20px;
   transition: 0.5s;
 }
-.farm__carousel__content button:hover {
+.coffee__carousel__content button:hover {
   background-color: #009f4d;
 }
-.farm__carousel__content button span {
+.coffee__carousel__content button span {
   color: white;
   font-size: 14px;
   font-weight: 500;
 }
-.farm__carousel__right {
+.coffee__carousel__right {
   width: 59%;
   margin-left: auto !important;
   background: rgb(0 0 0 / 17%);
   border-radius: 0px 0px 0px 40px;
   overflow: hidden;
 }
-.farm__carousel__right img {
+.coffee__carousel__right img {
   opacity: 0.8;
   height: 745px;
   object-fit: cover;
   position: relative;
 }
-.farm__carousel__right .carousel-inner p {
+.coffee__carousel__right .carousel-inner p {
   position: absolute;
   bottom: 25px;
   right: 20px;
@@ -188,31 +188,31 @@ body {
   z-index: 10;
   font-size: 20px;
 }
-.farm__carousel__right .carousel-inner p span {
+.coffee__carousel__right .carousel-inner p span {
   font-size: 25px;
   font-weight: 600;
   margin-left: 15px;
 }
-.farm__carousel__right li {
+.coffee__carousel__right li {
   border-radius: 50%;
   width: 12px;
   height: 12px;
   margin-left: 10px;
 }
-/* -----------------------------farm service------------------------ */
-.farm_services{
+/* -----------------------------coffee service------------------------ */
+.coffee_services{
   background-color: #009f4d;
   position: relative;
   padding: 100px 0px;
 }
-.farm_services_item{
+.coffee_services_item{
   display: flex;
   flex-wrap: wrap;
 }
-.farm_services_logo{
+.coffee_services_logo{
   margin-bottom: 80px;
 }
-.farm_services_logo h4{
+.coffee_services_logo h4{
   color:#fff;
   position: absolute;
   z-index: 0;
@@ -222,45 +222,45 @@ body {
   left: 25%;
   bottom: 70%;
 }
-.farm_services_item .farm_services_item_left{
+.coffee_services_item .coffee_services_item_left{
   width:50%;
 }
-.farm_services_item .farm_services_item_right{
+.coffee_services_item .coffee_services_item_right{
   width:50%;
 }
-.farm_services_item .farm_services_item_left h5{
+.coffee_services_item .coffee_services_item_left h5{
   color:white;
   font-size: 22px;
 }
-.farm_services_item .farm_services_item_left h3{
+.coffee_services_item .coffee_services_item_left h3{
   color:white;
   font-size: 40px;
   line-height: 50px;
   font-weight: 600;
 }
-.farm_services_item .farm_services_item_right h3{
+.coffee_services_item .coffee_services_item_right h3{
   color:white;
   font-size: 30px;
   line-height: 50px;
   font-weight: 600;
   margin-top: 10px;
 }
-.farm_service_item{
+.coffee_service_item{
   display: flex;
   flex-wrap: wrap;
   width:100%;
 }
-.farm_service_item .farm_service_item1{
+.coffee_service_item .coffee_service_item1{
   width: 33%;
   cursor: pointer;
 }
-.farm_service_item .farm_service_item1 .card{
+.coffee_service_item .coffee_service_item1 .card{
   border: none;
   background-color: #222222;
   border-radius: 15px;
   overflow: hidden;
 }
-.farm_service_item .farm_service_item1 .card span{
+.coffee_service_item .coffee_service_item1 .card span{
  background-color: #009f4d37;
  padding: 5px 20px;
  color: #009f4d;
@@ -268,23 +268,23 @@ body {
  border-radius: 15px;
  margin-bottom: 10px;
 }
-.farm_service_item .farm_service_item1 .card h5{
+.coffee_service_item .coffee_service_item1 .card h5{
   color: white;
   font-size: 22px;
   margin-bottom: 15px;
   transition: 0.5s;
  }
- .farm_service_item .farm_service_item1 .card h5:hover{
+ .coffee_service_item .coffee_service_item1 .card h5:hover{
   color:#009f4d;
  }
- .farm_service_item .farm_service_item1 .card p{
+ .coffee_service_item .coffee_service_item1 .card p{
   color:#b7b7b7;
   font-size: 17px;
  }
- .farm_gallery{
+ .coffee_gallery{
   padding: 100px 0px;
  }
- .farm_gallery_item_content1 button {
+ .coffee_gallery_item_content1 button {
   width: 140px;
   height: 50px;
   background-color: #fb811e;
@@ -293,40 +293,40 @@ body {
   margin-top: 20px;
   transition: 0.5s;
 }
-.farm_gallery_item_content1 button:hover {
+.coffee_gallery_item_content1 button:hover {
   background-color: #009f4d;
 }
-.farm_gallery_item_content1 button span {
+.coffee_gallery_item_content1 button span {
   color: white;
   font-size: 14px;
   font-weight: 500;
 }
-.farm_gallery_item{
+.coffee_gallery_item{
   display: flex;
   flex-wrap: wrap;
 }
-.farm_gallery_item_content1{
+.coffee_gallery_item_content1{
   width: 25%;
 }
-.farm_gallery_item_content{
+.coffee_gallery_item_content{
   width: 25%;
 }
-.farm_gallery_item_content1 h1{
+.coffee_gallery_item_content1 h1{
   color: #fb811e;
   font-size: 25px;
 }
-.farm_gallery_item_content1 h3{
+.coffee_gallery_item_content1 h3{
   color: #fff;
   font-size: 40px;
   font-weight: bold;
 }
-.farm_gallery_item_content a{
+.coffee_gallery_item_content a{
   position: relative;
 }
-.farm_gallery_item_content img{
+.coffee_gallery_item_content img{
   width: 100%;
 }
-.farm_gallery_item_content p{
+.coffee_gallery_item_content p{
   position: absolute;
   top:230px;
   left:40px;
@@ -335,11 +335,11 @@ body {
   padding: 5px 60px;
   border-radius: 5px;
 }
-.farm_gallery_item_content a figure{
+.coffee_gallery_item_content a figure{
   overflow: hidden;
   position: relative;
 }
-.farm_gallery_item_content a figure::before{
+.coffee_gallery_item_content a figure::before{
   position: absolute;
   top: 0;
   left: -75%;
@@ -352,19 +352,19 @@ body {
   transform: skewX(-17deg);
   transition: 1s;
 }
-.farm_gallery_item_content a figure:hover::before{
+.coffee_gallery_item_content a figure:hover::before{
   transform: translateX(500px);
 }
-/* --------------------------farm footer----------------------------- */
-.farm_footer{
+/* --------------------------coffee footer----------------------------- */
+.coffee_footer{
   background-color: rgb(183, 168, 168);
   padding-top:100px;
 }
-.farm_footer_bg{
+.coffee_footer_bg{
   margin: auto;
   width: 100%;
 }
-.farm_footer_col{
+.coffee_footer_col{
   display: flex;
   flex-wrap: wrap;
 }
@@ -372,19 +372,19 @@ body {
   border-bottom: #22222220 1px solid;
   padding-bottom: 30px;
 }
-.farm_footer_item {
+.coffee_footer_item {
   margin-right: 200px;
 }
-.farm_footer_item h5 ,.farm_footer_item1 h5{
+.coffee_footer_item h5 ,.coffee_footer_item1 h5{
  margin-bottom: 20px;
 }
-.farm_footer_item ul ,.farm_footer_item1 ul{
+.coffee_footer_item ul ,.coffee_footer_item1 ul{
   list-style-type: none;
 }
-.farm_footer_item li ,.farm_footer_item1 li{
+.coffee_footer_item li ,.coffee_footer_item1 li{
   margin-top: 10px;
 }
-.farm_footer_item a,.farm_footer_item1 a{
+.coffee_footer_item a,.coffee_footer_item1 a{
   text-decoration: none;
   color: rgb(32, 32, 32);
 }
