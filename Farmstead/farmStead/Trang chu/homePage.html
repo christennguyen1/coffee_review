@@ -35,21 +35,95 @@
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
     <link rel="stylesheet" href="./homePage.css" />
-    <title>
-      Farmstead – WordPress Theme – Just another W3Layouts free WordPress Demo
-      Sites site
-    </title>
+    <title>B e m y c o f f e e</title>
   </head>
   <body>
+    <!-- coffee header  -->
     <div class="coffee__header">
       <div class="container">
         <div class="coffee__header__poffolio">
           <div class="coffee__header__logo">
-            <h1>Coffee Review</h1>
+            <h1>B e m y c o f f e e</h1>
             <div class="coffee__header__logo__icon">
-              <i class="fa fa-coffee"></i>
+              <img src="../dataImage/bemylogo.png" />
+              <!-- <i class="fa fa-coffee"></i> -->
             </div>
           </div>
+          <form class="coffee__select">
+            <input
+              type="text"
+              placeholder="Name"
+              class="inputName"
+              id="inputName"
+            />
+            <select
+              name="selectDistrict"
+              id="selectDistrict"
+              class="selectDistrict"
+              required
+            >
+              <option value="" disabled selected hidden>Location</option>
+              <option value="Ba Đình">Ba Đình</option>
+              <option value="Bắc Từ Liêm">Bắc Từ Liêm</option>
+              <option value="Cầu Giấy">Cầu Giấy</option>
+              <option value="Đống Đa">Đống Đa</option>
+              <option value="Hà Đông">Hà Đông</option>
+              <option value="Hai Bà Trưng">Hai Bà Trưng</option>
+              <option value="Hoàn Kiếm">Hoàn Kiếm</option>
+              <option value="Hoàng Mai">Hoàng Mai</option>
+              <option value="Long Biên">Long Biên</option>
+              <option value="Nam Từ Liêm">Nam Từ Liêm</option>
+              <option value="Tây Hồ">Tây Hồ</option>
+              <option value="Thanh Xuân">Thanh Xuân</option>
+              <option value="Sơn Tây">Sơn Tây</option>
+              <option value="Ba Vì">Ba Vì</option>
+              <option value="Chương Mỹ">Chương Mỹ</option>
+              <option value="Đan Phượng">Đan Phượng</option>
+              <option value="Đông Anh">Đông Anh</option>
+              <option value="Gia Lâm">Gia Lâm</option>
+              <option value="Hoài Đức">Hoài Đức</option>
+              <option value="Mê Linh">Mê Linh</option>
+              <option value="Mỹ Đức">Mỹ Đức</option>
+              <option value="Phú Xuyên">Phú Xuyên</option>
+              <option value="Phúc Thọ">Phúc Thọ</option>
+              <option value="Quốc Oai">Quốc Oai</option>
+              <option value="Sóc Sơn">Sóc Sơn</option>
+              <option value="Thạch Thất">Thạch Thất</option>
+              <option value="Thanh Oai">Thanh Oai</option>
+              <option value="Thanh Trì">Thanh Trì</option>
+              <option value="Thường Tín">Thường Tín</option>
+              <option value="Ứng Hòa">Ứng Hòa</option>
+            </select>
+            <select
+              name="selectStyle"
+              id="selectStyle"
+              class="selectStyle"
+              required
+            >
+              <option value="" disabled selected hidden>Style</option>
+              <option value="Vintage">Vintage</option>
+              <option value="Scandinavian">Scandinavian</option>
+              <option value="Modern">Modern</option>
+              <option value="Industrial">Industrial</option>
+              <option value="Tropical">Tropical</option>
+            </select>
+            <select
+              name="selectMood"
+              id="selectMood"
+              class="selectMood"
+              required
+            >
+              <option value="" disabled selected hidden>Mood</option>
+              <option value="Friend Meeting">Friend Meeting</option>
+              <option value="Take A Photo">Take A Photo</option>
+              <option value="Chill">Chill</option>
+              <option value="Date">Date</option>
+              <option value="Work/Study">Work/Study</option>
+            </select>
+            <button type="submit" class="inputSubmit" id="inputSubmit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
           <div class="coffee__header__list">
             <div class="coffee__header__dl"></div>
             <div class="coffee__header__menu">
@@ -68,110 +142,104 @@
         </div>
       </div>
     </div>
-    <div class="coffee__carousel">
-      <div class="container-fbuild">
-        <div class="coffee__carousel__pofo">
-          <div class="coffee__carousel__back">
-            <div class="coffee__carousel__left">
-              <h1>Coffee</h1>
-              <div class="coffee__carousel__content">
-                <h2>Welcome to Website where Cup of coffee is born!</h2>
-                <p>
-                  "Coffee - the favorite drink of the civilized world."<br />
-                  - Thomas Jefferson
-                </p>
-                <button><span>LEARN MORE</span></button>
+    <!-- coffee banner  -->
+    <div class="coffee__banner">
+      <section class="slider">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../dataImage/de.tầm5.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>De.Tầm</h5>
+                <p>De.Tầm - No.33 Yen The Str. - Ba Dinh, Ha Noi</p>
               </div>
             </div>
-            <div class="coffee__carousel__right">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      class="d-block w-100"
-                      src="../TrangChuCoffee_Img/283525398_326533856302857_8316090765713401099_n.jpg"
-                      alt="First slide"
-                    />
-                    <p>
-                      <span>01/03</span><br />
-                      Architectural
-                    </p>
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="../TrangChuCoffee_Img/257616096_428145105543255_8398481205028450132_n.jpg"
-                      alt="Second slide"
-                    />
-                    <p>
-                      <span>02/03</span><br />
-                      Color Coffee
-                    </p>
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="../TrangChuCoffee_Img/248271846_4192133410899051_2584369484102698708_n.jpg"
-                      alt="Third slide"
-                    />
-                    <p>
-                      <span>03/03</span><br />
-                      Pet and Coffee
-                    </p>
-                  </div>
-                </div>
+            <div class="carousel-item">
+              <img src="../dataImage/kẻ7.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Kẻ Chợ</h5>
+                <p>Kẻ Coffee - No.7 - Đong Co Str. - Tay Ho, Ha Noi</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../dataImage/gusto1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Gusto Coffee</h5>
+                <p>Gusto Coffee - No.18 Hoang Cau Str. - Dong Da, Ha Noi</p>
               </div>
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-target="#carouselExampleCaptions"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-target="#carouselExampleCaptions"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
         </div>
-      </div>
+      </section>
     </div>
+    <!-- coffee services  -->
     <div class="coffee_services">
       <div class="container">
         <div class="coffee_services_logo">
           <div class="coffee_services_item">
             <div class="coffee_services_item_left">
               <h5>What we do</h5>
-              <h3>Why Choose Our Fresh Coffee Bean</h3>
+              <h3>Are you looking for a suitable coffee shop?</h3>
             </div>
             <div class="coffee_services_item_right">
               <h3>
-                If you want the best taste, always buy fresh coffee beans.
+                If you want an ideal outing but don't know where to go.Let me
+                help you
               </h3>
             </div>
           </div>
-          <h4>Services</h4>
+          <h4>Scandinavian</h4>
         </div>
         <div class="coffee_service_item">
           <div class="coffee_service_item1">
             <div class="card" style="width: 22rem">
               <img
                 class="card-img-top"
-                src="../farmStead/service1.jpg"
+                src="../dataImage/copa1.jpg"
                 alt="Card image cap"
               />
               <div class="card-body">
-                <span>Natural</span>
-                <h5 class="card-title">Agriculture Products</h5>
+                <span>Scandinavian</span>
+                <h5 class="card-title">The Copa Cafe'</h5>
                 <p class="card-text">
                   Sed ut perspiciatis unde omnis iste natus sit accusantium
                   doloremque laudantium, totam rem aperiam
@@ -183,12 +251,12 @@
             <div class="card" style="width: 22rem">
               <img
                 class="card-img-top"
-                src="../farmStead/service1.jpg"
+                src="../dataImage/hayho1.jpg"
                 alt="Card image cap"
               />
               <div class="card-body">
-                <span>Natural</span>
-                <h5 class="card-title">Agriculture Products</h5>
+                <span>Scandinavian</span>
+                <h5 class="card-title">Hay Ho Cafe</h5>
                 <p class="card-text">
                   Sed ut perspiciatis unde omnis iste natus sit accusantium
                   doloremque laudantium, totam rem aperiam
@@ -200,12 +268,12 @@
             <div class="card" style="width: 22rem">
               <img
                 class="card-img-top"
-                src="../farmStead/service1.jpg"
+                src="../dataImage/lafont-1.jpg"
                 alt="Card image cap"
               />
               <div class="card-body">
-                <span>Natural</span>
-                <h5 class="card-title">Agriculture Products</h5>
+                <span>Scandinavian</span>
+                <h5 class="card-title">Lafont Cofffee</h5>
                 <p class="card-text">
                   Sed ut perspiciatis unde omnis iste natus sit accusantium
                   doloremque laudantium, totam rem aperiam
@@ -216,73 +284,75 @@
         </div>
       </div>
     </div>
+    <!-- coffe gallery  -->
     <div class="coffee_gallery">
       <div class="container">
         <div class="coffee_gallery_item">
           <div class="coffee_gallery_item_content1">
-            <h1>Gallery</h1>
-            <h3>Our Products</h3>
+            <h1>About</h1>
+            <h3>Vintage Style</h3>
             <button><span>DISCOVER MORE</span></button>
           </div>
           <div class="coffee_gallery_item_content">
             <a href="./">
               <figure>
-                <img src="../farmStead/g2.jpg" />
-                <p>Fresh Carrots</p>
+                <img src="../dataImage/de.tầm3.jpg" />
+                <p>De.Tầm</p>
               </figure>
             </a>
           </div>
           <div class="coffee_gallery_item_content">
             <a href="./">
               <figure>
-                <img src="../farmStead/g2.jpg" />
-                <p>Fresh Carrots</p>
+                <img src="../dataImage/kẻ3.jpg" />
+                <p>Kẻ Coffee</p>
               </figure>
             </a>
           </div>
           <div class="coffee_gallery_item_content">
             <a href="./">
               <figure>
-                <img src="../farmStead/g2.jpg" />
-                <p>Fresh Carrots</p>
+                <img src="../dataImage/arnau1.jpg" />
+                <p>Artination</p>
               </figure>
             </a>
           </div>
           <div class="coffee_gallery_item_content">
             <a href="./">
               <figure>
-                <img src="../farmStead/g2.jpg" />
-                <p>Fresh Carrots</p>
+                <img src="../dataImage/khudan1.jpg" />
+                <p>Khu Dân Cư</p>
               </figure>
             </a>
           </div>
           <div class="coffee_gallery_item_content">
             <a href="./">
               <figure>
-                <img src="../farmStead/g2.jpg" />
-                <p>Fresh Carrots</p>
+                <img src="../dataImage/little1.jpg" />
+                <p>Little Pie</p>
               </figure>
             </a>
           </div>
           <div class="coffee_gallery_item_content">
             <a href="./">
               <figure>
-                <img src="../farmStead/g2.jpg" />
-                <p>Fresh Carrots</p>
+                <img src="../dataImage/lerma2.jpg" />
+                <p>Lermalermer</p>
               </figure>
             </a>
           </div>
           <div class="coffee_gallery_item_content">
             <a href="./">
               <figure>
-                <img src="../farmStead/g2.jpg" />
-                <p>Fresh Carrots</p>
+                <img src="../dataImage/kohi1.jpg" />
+                <p>Sutori Kohi</p>
               </figure>
             </a>
           </div>
         </div>
       </div>
     </div>
+    <!-- coffee footer -->
     <div class="coffee_footer">
       <div class="coffee_footer_bg">
         <div class="footer_border">
@@ -292,79 +362,66 @@
                 <h5>ABOUT</h5>
                 <ul class="footer-nav">
                   <li>
-                    <a href="\#">How Airbnb works</a>
+                    <a href="\#">How Bemycoffee works</a>
                   </li>
                   <li>
-                    <a href="\#">Newsroom</a>
+                    <a href="\#">Products</a>
                   </li>
                   <li>
-                    <a href="\#">Investors</a>
+                    <a href="\#">Coffee Story</a>
                   </li>
                   <li>
-                    <a href="\#">Airbnb Plus</a>
-                  </li>
-                  <li>
-                    <a href="\#">Airbnb Luxe</a>
+                    <a href="\#">Coffee Style</a>
                   </li>
                 </ul>
               </div>
               <div class="coffee_footer_item">
-                <h5>COMMUNITY</h5>
+                <h5>TERMS</h5>
                 <ul class="footer-nav">
                   <li>
-                    <a href="\#">Accessibility</a>
+                    <a href="\#">Terms Of Use</a>
                   </li>
                   <li>
-                    <a href="\#">This is not a real site</a>
-                  </li>
-                  <li>
-                    <a href="\#">Its a pretty awesome clone</a>
-                  </li>
-                  <li>
-                    <a href="\#">Referrals accepted</a>
-                  </li>
-                  <li>
-                    <a href="\#">Papafam</a>
+                    <a href="\#">Privacy Rules</a>
                   </li>
                 </ul>
               </div>
               <div class="coffee_footer_item">
-                <h5>HOST</h5>
+                <h5>CONTACT</h5>
                 <ul class="footer-nav">
                   <li>
-                    <a href="\#">Papa React</a>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="\#">Phone: 0948045658</a>
                   </li>
                   <li>
-                    <a href="\#">Presents</a>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="\#">Location:</a>
                   </li>
                   <li>
-                    <a href="\#">Zero to full Stack Hero</a>
-                  </li>
-                  <li>
-                    <a href="\#">Hundreds of Students</a>
-                  </li>
-                  <li>
-                    <a href="\#">Join Now</a>
+                    <a href="\#"
+                      >110 Trần Duy Hưng,<br />
+                      Quận Cầu Giấy, Hà Nội</a
+                    >
                   </li>
                 </ul>
               </div>
               <div class="coffee_footer_item1">
-                <h5>SUPPORT</h5>
+                <h5>INFO</h5>
                 <ul class="footer-nav">
                   <li>
-                    <a href="\#">Help Centre</a>
+                    <a href="https://www.facebook.com/bemycoffee.hn">
+                      <img src="../dataImage/bemycoffee-2.jpg" alt="" />
+                    </a>
                   </li>
                   <li>
-                    <a href="\#">Trust Safety</a>
-                  </li>
-                  <li>
-                    <a href="\#">Say Hi Youtube</a>
-                  </li>
-                  <li>
-                    <a href="\#">Easter Eggs</a>
-                  </li>
-                  <li>
-                    <a href="\#">For the Win</a>
+                    <a href="https://www.facebook.com/bemycoffee.hn"
+                      ><i class="fa-brands fa-facebook fa-2xl"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/accounts/login/?next=/bemycoffee.hn/"
+                    >
+                      <i class="fa-brands fa-instagram fa-2xl"></i
+                    ></a>
                   </li>
                 </ul>
               </div>

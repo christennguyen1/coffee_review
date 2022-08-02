@@ -5,7 +5,7 @@
   font-family: "Volkhov", serif;
 }
 body {
-  background-color: #222222;
+  background-color: white;
 }
 .container {
   width: 100%;
@@ -27,16 +27,16 @@ body {
   }
 }
 .coffee__header {
-  background-color: transparent;
-  position: absolute;
   width: 100%;
-  z-index: 100;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .coffee__header__poffolio {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 15px;
+  padding: 10px 0px 10px;
 }
 .coffee__header__logo {
   position: relative;
@@ -46,25 +46,89 @@ body {
 .coffee__header__logo h1 {
   font-size: 40px;
   font-weight: 600;
-  color: #fb811e;
   margin-top: 10px;
   transition: 0.5s;
 }
 .coffee__header__logo__icon {
   position: absolute;
   top: 5px;
-  right: 125px;
+  right: 289px;
 }
-.coffee__header__logo__icon i {
-  color: #fb811e;
-  font-size: 15px;
+.coffee__header__logo__icon img {
   transition: 0.5s;
+  max-width: 60px;
+  max-height: 60px;
 }
 .coffee__header__logo:hover h1 {
-  color: white;
+  color: #10ac84;
 }
 .coffee__header__logo:hover i {
-  color: white;
+  color: #10ac84;
+}
+.coffee__select {
+  display: flex;
+  align-items: center;
+}
+.inputName {
+  padding: 8px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  font-family: "Volkhov", serif;
+  color: black;
+  outline: none;
+  max-height: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.selectDistrict {
+  padding: 8px;
+  border: none;
+  font-family: "Volkhov", serif;
+  color: black;
+  outline: none;
+  max-height: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.selectStyle {
+  padding: 8px;
+  border: none;
+  font-family: "Volkhov", serif;
+  color: black;
+  outline: none;
+  max-height: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.selectMood {
+  padding: 8px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  font-family: "Volkhov", serif;
+  color: black;
+  outline: none;
+  max-height: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.selectDistrict:required:invalid {
+  color: #666;
+}
+.selectStyle:required:invalid {
+  color: #666;
+}
+.selectMood:required:invalid {
+  color: #666;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: #000;
+}
+.inputSubmit {
+  padding: 8px;
+  border: none;
+  outline: none;
+  max-height: 35px;
+  background-color: transparent;
 }
 .coffee__header__list {
   display: flex;
@@ -73,7 +137,6 @@ body {
 .coffee__header__input {
   width: 35px;
   height: 35px;
-  background-color: white;
   border-radius: 50%;
   text-align: center;
   margin-right: 15px;
@@ -90,7 +153,6 @@ body {
   content: "\f185";
   font-family: fontAwesome;
   font-size: 20px;
-  color: white;
 }
 .coffee__header__menu {
   text-align: center;
@@ -102,7 +164,6 @@ body {
   font-family: fontAwesome;
   font-size: 30px;
   font-weight: 600;
-  color: white;
 }
 .coffee__header__menu ul {
   list-style: none;
@@ -113,24 +174,134 @@ body {
   color: white;
   font-weight: 500;
 }
-.coffee__header_select {
-  display: flex;
-  font-size: 20px;
+/* strat crousel  */
+.coffee__banner .slider {
+  height: 500px;
 }
-.selectCss {
-  padding: 8px;
-  border: none;
-  border-radius: 4px 0px 0px 4px;
-  font-family: "Volkhov", serif;
-  background-color: transparent;
-  color: white;
+.coffee__banner .slider img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* coffee footer  */
+/* --------------------------coffee footer----------------------------- */
+.coffee_footer {
+  background-color: rgb(183, 168, 168);
+  padding-top: 100px;
+}
+.coffee_footer_bg {
+  margin: auto;
+  width: 100%;
+}
+.coffee_footer_col {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_border {
+  border-bottom: #22222220 1px solid;
+  padding-bottom: 30px;
+}
+.coffee_footer_item {
+  margin-right: 200px;
+}
+.coffee_footer_item h5,
+.coffee_footer_item1 h5 {
+  margin-bottom: 20px;
+}
+.coffee_footer_item ul,
+.coffee_footer_item1 ul {
+  list-style-type: none;
+}
+.coffee_footer_item li,
+.coffee_footer_item1 li {
+  margin-top: 10px;
+}
+.coffee_footer_item a,
+.coffee_footer_item1 a {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+}
+.footer-nav li img {
+  max-width: 150px;
+  max-height: 300px;
+  object-fit: cover;
+}
+.footer-nav li a {
+  color: black;
+  position: relative;
+  transition: 0.5s;
+  font-size: 15px;
   outline: none;
 }
-/* ------------------------------- start banner ------------------------- */
-.coffee_banner .slider{
-  height:500px;
+
+.footer-nav li a:hover {
+  color: rgba(84, 38, 38, 1);
 }
-.coffee_banner .slider img{
-  height:500px;
-  object-fit: cover;
+
+.footer-nav li a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    rgba(201, 172, 180, 1) 23%,
+    rgba(84, 38, 38, 1) 92%
+  );
+  top: 20px;
+  left: 0;
+  transition: 0.5s;
+}
+.footer-nav li a:hover::after {
+  width: 100%;
+}
+.footer_lim {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_lim_left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_lim_left p {
+  margin-right: 20px;
+}
+.footer_lim_right {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_lim_right_item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.footer_lim_right_item i {
+  padding-top: 20px;
+}
+.footer_lim p {
+  cursor: pointer;
+  font-weight: 400;
+  color: black;
+  position: relative;
+}
+
+.footer_lim p::after {
+  position: absolute;
+  content: "";
+  bottom: 2px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: transparent;
+}
+.footer_lim p:hover::after {
+  background: rgb(59, 59, 59);
+}
+
+.footer_lim i {
+  cursor: pointer;
+  color: black;
+}
+.pa_right {
+  margin-left: 10px;
 }
