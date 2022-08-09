@@ -41,7 +41,9 @@ body {
 .coffee__header__logo {
   position: relative;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.5s;
+  color: #000;
+  text-decoration: none !important;
 }
 .coffee__header__logo h1 {
   font-size: 40px;

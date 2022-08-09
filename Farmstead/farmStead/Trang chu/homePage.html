@@ -42,13 +42,13 @@
     <div class="coffee__header">
       <div class="container">
         <div class="coffee__header__poffolio">
-          <div class="coffee__header__logo">
+          <a href="./homePage.html" class="coffee__header__logo">
             <h1>B e m y c o f f e e</h1>
             <div class="coffee__header__logo__icon">
               <img src="../dataImage/bemylogo.png" />
               <!-- <i class="fa fa-coffee"></i> -->
             </div>
-          </div>
+          </a>
           <form class="coffee__select">
             <input
               type="text"
@@ -60,7 +60,6 @@
               name="selectDistrict"
               id="selectDistrict"
               class="selectDistrict"
-              required
             >
               <option value="" disabled selected hidden>Location</option>
               <option value="Ba Đình">Ba Đình</option>
@@ -94,12 +93,7 @@
               <option value="Thường Tín">Thường Tín</option>
               <option value="Ứng Hòa">Ứng Hòa</option>
             </select>
-            <select
-              name="selectStyle"
-              id="selectStyle"
-              class="selectStyle"
-              required
-            >
+            <select name="selectStyle" id="selectStyle" class="selectStyle">
               <option value="" disabled selected hidden>Style</option>
               <option value="Vintage">Vintage</option>
               <option value="Scandinavian">Scandinavian</option>
@@ -107,12 +101,7 @@
               <option value="Industrial">Industrial</option>
               <option value="Tropical">Tropical</option>
             </select>
-            <select
-              name="selectMood"
-              id="selectMood"
-              class="selectMood"
-              required
-            >
+            <select name="selectMood" id="selectMood" class="selectMood">
               <option value="" disabled selected hidden>Mood</option>
               <option value="Friend Meeting">Friend Meeting</option>
               <option value="Take A Photo">Take A Photo</option>
@@ -470,5 +459,6 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./search.js"></script>
   </body>
 </html>

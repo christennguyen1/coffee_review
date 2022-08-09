@@ -176,61 +176,45 @@ option {
   color: white;
   font-weight: 500;
 }
-/* strat crousel  */
-.coffee__banner .slider {
-  height: 500px;
-}
-.coffee__banner .slider img {
-  height: 500px;
-  object-fit: cover;
-}
-/* coffeebody */
-.coffee_services {
-  background-color: white;
-  position: relative;
-  padding: 100px 0px;
-}
-.coffee_service_item {
-  display: flex;
-  flex-wrap: wrap;
+/* --------------------------coffee carousel--------------------------- */
+.carousel-inner img {
   width: 100%;
-  gap: 30px 0;
-}
-.coffee_service_item .coffee_service_item1 {
-  width: 33%;
-  cursor: pointer;
-  text-decoration: none;
-}
-.card-img-top {
-  height: 300px;
+  height: 500px;
   object-fit: cover;
 }
-.coffee_service_item .coffee_service_item1 .card {
-  border: none;
-  background-color: #222222;
-  border-radius: 15px;
-  overflow: hidden;
+.carousel img {
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 8px;
+  cursor: pointer;
 }
-.coffee_service_item .coffee_service_item1 .card span {
-  background-color: #009f4d37;
-  padding: 5px 20px;
-  color: #009f4d;
-  display: inline-block;
-  border-radius: 15px;
+.coffee__body__container {
+  margin: 80px;
+}
+/* coffee body content  */
+.coffee__body__content {
+  margin-left: 20px;
+  /* background-color: red; */
+}
+.coffee__body__content__title {
+  display: flex;
+  /* color: #10ac84; */
+}
+.coffee__body__content__title h1 {
+  margin-right: 300px;
+}
+.coffee__body__content button {
+  border: none;
+  background-color: transparent;
+}
+.coffee__body__content__item {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
 }
-.coffee_service_item .coffee_service_item1 .card h5 {
-  color: white;
-  font-size: 22px;
-  margin-bottom: 15px;
-  transition: 0.5s;
-}
-.coffee_service_item .coffee_service_item1 .card h5:hover {
-  color: #009f4d;
-}
-.coffee_service_item .coffee_service_item1 .card p {
-  color: #b7b7b7;
-  font-size: 17px;
+.coffee__body__content__item i {
+  margin-right: 5px;
+  padding-bottom: 10px;
 }
 
 /* --------------------------coffee footer----------------------------- */
@@ -238,7 +222,6 @@ option {
   background-color: rgb(183, 168, 168);
   padding-top: 100px;
 }
-
 .coffee_footer_bg {
   margin: auto;
   width: 100%;
